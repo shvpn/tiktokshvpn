@@ -1,0 +1,149 @@
+
+@font-face {
+  font-family: 'shvpncadt';
+  src: url('font/zin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'shvpnbub';
+  src: url('font/shvpbbub.ttf') format('truetype');
+}
+
+
+#downloadForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    margin-top: 30px;
+    padding: auto;
+    border-radius: 20px;
+}
+.messageform{
+    font-family: 'shvpnbub', serif;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #79df64, #2ac5e0);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: glow-effect 4.5s infinite; /* Added glow effect animation */
+}
+#allcon{
+    font-family: 'shvpnbub', serif;
+    border-radius: 20px;
+    animation: glow-effect 3.5s infinite; /* Added glow effect animation */
+    font-size: 30px;
+    
+    background: linear-gradient(to bottom, #79df64, #0d49cb);
+
+}
+#allconsh{
+    font-family: 'shvpncadt', serif;
+    border-radius: 21px;
+}
+#linktov{
+    margin-top: 20px;
+   
+
+}
+
+
+  .btnzin {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(36, 15, 15);
+    padding: 1rem 2rem;
+    margin-top: 7px;
+    font-family: 'shvpncadt', serif;
+    border: 2px solid #fff; /* Changed to white border */
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none; /* Remove underline from the button */
+    animation: glow-effect 4s infinite; /* Added glow effect animation */
+  }
+
+  .btnzin:hover {
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  }
+  #message{
+    font-size: 13px;
+    font-family: 'shvpncadt', serif;
+  }
+  #progress{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    animation: glow-effect 4s infinite; 
+    
+  }
+  .progress{
+    width: 100%;
+    height: 20px;
+    /* background-color: #318ae4; */
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .allsocial{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px; 
+    /* background-color: #318ae4; */
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    animation: glow-effect 5s infinite; 
+    margin-bottom: 10px;
+  }
+  #facebook{
+    font-size: 50px;
+    animation: glow-effect 5s infinite;
+    margin-right: 60px;
+    animation: iconeffect 5s infinite;
+  }
+  #facebook:hover{
+    font-size: 60px;
+    cursor: pointer;
+  }
+  #telegram:hover{
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+  #telegram{
+    font-size: 50px;
+    margin-left: 60px;
+    animation: iconeffect 5s infinite;
+  }
+
+  .allsocial:hover{
+    background: linear-gradient(to bottom, #f3e3df, #15de1f);
+  }
+
+  @keyframes glow-effect {
+    0% { border-color: #ff0000; box-shadow: 0 0 10px #ff0000; }
+    25% { border-color: #00ff00; box-shadow: 0 0 10px #00ff00; }
+    50% { border-color: #0000ff; box-shadow: 0 0 10px #0000ff; }
+    75% { border-color: #00ffff; box-shadow: 0 0 10px #00ffff; }
+    100% { border-color: #ff00ff; box-shadow: 0 0 10px #ff00ff; }
+  }
+  @keyframes iconeffect {
+    0% { color: #eae5e5;}
+    25% { color: #00ff00;}
+    50% { color: #fee258;}
+    75% { color: #00ffff;}
+    100% { color: #cef3e9;}
+  }
